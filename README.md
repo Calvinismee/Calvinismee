@@ -35,6 +35,7 @@
 
 <h2 id="experience">💡 Experience</h2>
 
+---
 
 <h2 id="connect">📫 Connect with Me</h2>
 
