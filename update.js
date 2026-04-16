@@ -11,8 +11,8 @@ const expMd = data.experience.map(item => {
 }).join('\n\n---\n\n');
 
 // Replace everything between the markers
-const startMarker = '';
-const endMarker = '';
+const startMarker = '---';
+const endMarker = '---';
 const regex = new RegExp(`(${startMarker})[\\s\\S]*?(${endMarker})`);
 
 readme = readme.replace(regex, `$1\n${expMd}\n$2`);
