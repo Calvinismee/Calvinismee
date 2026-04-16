@@ -38,13 +38,14 @@
 ---
 
 ### **Frontend Developer (Volunteer)** for IT-Today IPB University
-*_(April 2025 – Present)_*
+*_(April 2025 – Sep 2025)_*
 
-* Contributed to UI/UX design (login, dashboard), prioritizing user experience.
-* Designed wireframes/mockups in Figma.
-* Developed interactive frontend features with React and Tailwind.
-* Managed frontend logic (authentication, dynamic data).
-* Integrated with backend APIs for real-time data.
+* Designed UI/UX for authentication page and dashboard using Figma.
+*  Implemented UI/UX design using React.js and Tailwind.css.
+*  Integrated backend APIs for real-time data display using Axios.js
+*  Added 9,006 lines and removed 4,543 lines of code and pushed 98 commits
+*  Evaluated UI/UX design based on various feedbacks
+*  Debugged API integration's errors
 
 ---
 
