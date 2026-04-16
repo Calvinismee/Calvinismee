@@ -1,23 +1,22 @@
 const fs = require('fs');
 
-// Load data
+// Load JSON data and the current README
 const data = JSON.parse(fs.readFileSync('./profile.json', 'utf8'));
 let readme = fs.readFileSync('./README.md', 'utf8');
 
-// Format Experience to match your existing style
+// Build the markdown block for experience
 const expMd = data.experience.map(item => {
-  const bulletPoints = item.highlights.map(point => `* ${point}`).join('\n');
-  return `### **${item.role}** for ${item.company}\n*_(${item.period})_*\n\n${bulletPoints}\n\n---`;
-}).join('\n\n');
+  const bullets = item.highlights.map(h => `* ${h}`).join('\n');
+  return `### **${item.role}** for ${item.company}\n*_(${item.period})_*\n\n${bullets}`;
+}).join('\n\n---\n\n');
 
-// Replace content between markers
-const regex = /[\s\S]*/;
-const newContent = `\n\n${expMd}\n\n`;
+// Replace everything between the markers
+const startMarker = '';
+const endMarker = '';
+const regex = new RegExp(`(${startMarker})[\\s\\S]*?(${endMarker})`);
 
-if (regex.test(readme)) {
-  readme = readme.replace(regex, newContent);
-  fs.writeFileSync('./README.md', readme);
-  console.log('Successfully synced experience to README!');
-} else {
-  console.error('Markers not found in README.md');
-}
+readme = readme.replace(regex, `$1\n${expMd}\n$2`);
+
+// Save the updated README
+fs.writeFileSync('./README.md', readme);
+console.log('README.md updated successfully!');
