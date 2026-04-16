@@ -1,3 +1,13 @@
+
+### **Frontend Developer (Volunteer)** for IT-Today IPB University
+*_(April 2025 – Sep 2025)_*
+
+* Designed UI/UX for authentication page and dashboard using Figma.
+* Implemented UI/UX design using React.js and Tailwind.css.
+* Integrated backend APIs for real-time data display using Axios.js
+* Added 9,006 lines and removed 4,543 lines of code and pushed 98 commits
+* Evaluated UI/UX design based on various feedbacks
+* Debugged API integration's errors
 <h1 align="center">
   <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&weight=600&size=25&pause=998&color=805DF7&background=27FF0E00&center=true&vCenter=true&width=600&lines=Halo%2FHello%2F%E3%82%84%E3%81%82%2F%E4%BD%A0%E5%A5%BD%2FCiao%2F%D0%9F%D1%80%D0%B8%D0%B2%D0%B5%D1%82%2FHej!+%F0%9F%91%8B;Julius+Calvin+Kurniadi" alt="Typing SVG" /></a>
 </h1>
