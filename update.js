@@ -11,7 +11,7 @@ const expMd = data.experience.map(item => {
 }).join('\n\n---\n\n');
 
 // Replace everything between the markers
-const startMarker = <h2 id="experience">💡 Experience</h2> ---';
+const startMarker = '<h2 id="experience">💡 Experience</h2> ---';
 const endMarker = '--- <h2 id="connect">📫 Connect with Me</h2>';
 const regex = new RegExp(`(${startMarker})[\\s\\S]*?(${endMarker})`);
 
