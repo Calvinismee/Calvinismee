@@ -47,7 +47,19 @@
 * Evaluated UI/UX design based on various feedbacks
 * Debugged API integration's errors
 
+### **Head of Data and Informatics Division** for IT-Today IPB University
+
+**(July 2026 – Present)**
+
+* Led the **UI/UX and Full-Stack Development teams**, coordinating technical execution and cross-functional collaboration.
+* Designed and developed an **administrative dashboard serving 1,400+ users**, supporting document management, payment verification, and data export workflows.
+* Managed **VPS infrastructure and application deployments** to maintain reliable production operations.
+* Implemented **CI/CD workflows using Dokploy**, streamlining the deployment and release process.
+* Oversaw technical development across **frontend, backend, and infrastructure**, ensuring integration between application components and deployment environments.
+
 ---
+
+
 
 <h2 id="connect">📫 Connect with Me</h2>
 
