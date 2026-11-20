@@ -1,0 +1,10 @@
+# Settings: https://github.com/pedrocatalao/github-cool-readme#settings
+user: Calvinismee
+show: [summary, languages, contributions, weekly, repos]
+count:
+  private: true
+  orgs: true
+look:
+  style: classic
+  color: github
+  background: none
