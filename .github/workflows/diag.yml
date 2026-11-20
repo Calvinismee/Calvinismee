@@ -1,0 +1,14 @@
+
+name: Actions Diagnostic
+
+on:
+  workflow_dispatch:
+
+jobs:
+  diagnostic:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check runner
+        run: |
+          echo "Runner is working"
+          uname -a
