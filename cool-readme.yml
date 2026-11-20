@@ -6,5 +6,5 @@ count:
   orgs: true
 look:
   style: classic
-  color: github
+  color: green
   background: none
